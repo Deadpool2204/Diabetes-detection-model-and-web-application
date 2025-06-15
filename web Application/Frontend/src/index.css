@@ -1,0 +1,45 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap'); /* Added font weights */
+
+:root {
+  /* Define color variables for easier modification and consistency */
+  --dark-bg: #1a1a1a; /* Deeper dark background */
+  --light-gray-text: #d4d4d4; /* Improved text color */
+  --electric-blue: #7df9ff;
+  --coral-error: #ff7f50;
+  --medium-gray: #444444;
+  --dark-gray-card: #333333;
+  --lighter-gray: #aaaaaa;
+}
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-bg); /* Using variable */
+  color: var(--light-gray-text); /* Using variable and improving contrast */
+  font-size: 16px;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility; /* Improves text rendering on some browsers */
+  -webkit-font-smoothing: antialiased; /* Improves font rendering on some browsers */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; /* Adjusted heading weight */
+  line-height: 1.2;
+  color: var(--light-gray-text); /* Headings are also light */
+}
+
+section {
+  padding: 40px 0; /* Reduced padding */
+}
+
+a {
+    color: var(--electric-blue);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fff;
+}
